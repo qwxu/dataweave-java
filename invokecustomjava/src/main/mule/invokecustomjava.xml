@@ -29,6 +29,5 @@ output application/json
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
-		<logger level="INFO" doc:name="Logger" doc:id="cb72a641-c0e4-4bef-a2e8-c21a82cf6e3e" message="Substring Value is: #[payload]"/>
 	</flow>
 </mule>
